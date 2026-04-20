@@ -1,0 +1,44 @@
+account_name,opportunity_name,stage,amount_usd,service_line,close_quarter
+Core Solutions,Core Solutions - Cloud Modernization,Closed Won,1180127,AI Enablement,2025-Q2
+Blue Solutions,Blue Solutions - AI Enablement,Closed Lost,835451,Platform Engineering,2025-Q3
+Terra Matrix,Terra Matrix - Platform Engineering,Closed Won,729533,AI Enablement,2025-Q3
+Terra One,Terra One - Platform Engineering,Closed Won,3343532,Cloud Modernization,2025-Q1
+Delta Bridge,Delta Bridge - Digital Product,Closed Lost,702277,Digital Product,2024-Q4
+Helio Works,Helio Works - Platform Engineering,Closed Won,1036093,AI Enablement,2024-Q4
+North Vista,North Vista - Cloud Modernization,Closed Won,4376826,Platform Engineering,2024-Q4
+Prime Soft,Prime Soft - Digital Product,Closed Won,1515185,Platform Engineering,2025-Q3
+Nimbus Scale,Nimbus Scale - Legacy Modernization,Closed Won,1829190,AI Enablement,2025-Q4
+Apex Flow,Apex Flow - Digital Product,Closed Won,2443666,Cloud Modernization,2024-Q4
+Next Cloud,Next Cloud - Cloud Modernization,Closed Won,4417006,Cloud Modernization,2024-Q4
+Terra Grid,Terra Grid - Digital Product,Closed Won,2650585,Digital Product,2025-Q4
+Quantum Digital,Quantum Digital - Platform Engineering,Closed Lost,3768899,Legacy Modernization,2025-Q1
+Bright One,Bright One - Cloud Modernization,Closed Won,3932910,Platform Engineering,2025-Q4
+Pulse Vista,Pulse Vista - Digital Product,Closed Lost,1754561,AI Enablement,2025-Q4
+Next Labs,Next Labs - Digital Product,Closed Lost,2838895,Cloud Modernization,2025-Q1
+Bright Works,Bright Works - Legacy Modernization,Closed Won,4120427,Legacy Modernization,2025-Q3
+Lumen Scale,Lumen Scale - Cloud Modernization,Closed Won,637813,Cloud Modernization,2025-Q1
+Forge Logic,Forge Logic - AI Enablement,Closed Lost,948615,Legacy Modernization,2025-Q2
+Lumen Grid,Lumen Grid - Platform Engineering,Closed Won,707217,Legacy Modernization,2025-Q2
+Helio Systems,Helio Systems - Digital Product,Closed Won,917751,Cloud Modernization,2025-Q1
+Lumen Systems,Lumen Systems - Platform Engineering,Closed Won,3091236,Platform Engineering,2025-Q1
+Delta Labs,Delta Labs - AI Enablement,Closed Won,1013191,Legacy Modernization,2024-Q4
+Sky Platform,Sky Platform - Platform Engineering,Closed Won,3315050,Cloud Modernization,2025-Q4
+Sky Labs,Sky Labs - Platform Engineering,Closed Won,343636,Cloud Modernization,2025-Q2
+Pulse Stack,Pulse Stack - Growth Initiative,Scoping,1118856,Digital Product,2026-Q3
+Sky Flow,Sky Flow - Growth Initiative,Discovery,2634621,Legacy Modernization,2026-Q3
+North Soft,North Soft - Growth Initiative,Discovery,263204,Platform Engineering,2026-Q2
+Nova Bridge,Nova Bridge - Growth Initiative,Scoping,794009,Platform Engineering,2026-Q2
+Quantum Digital,Quantum Digital - Growth Initiative,Negotiation,1197879,AI Enablement,2026-Q2
+Prime Tech,Prime Tech - Growth Initiative,Discovery,1101544,Legacy Modernization,2026-Q3
+Terra One,Terra One - Growth Initiative,Discovery,1549546,Digital Product,2026-Q2
+Core Vista,Core Vista - Growth Initiative,Proposal,2626010,Legacy Modernization,2026-Q1
+Helio Soft,Helio Soft - Growth Initiative,Proposal,3034907,Platform Engineering,2026-Q3
+Cyber Systems,Cyber Systems - Growth Initiative,Negotiation,612970,Cloud Modernization,2026-Q3
+Nimbus Digital,Nimbus Digital - Growth Initiative,Proposal,885042,Digital Product,2026-Q3
+Nimbus Logic,Nimbus Logic - Growth Initiative,Negotiation,3079803,Cloud Modernization,2026-Q3
+Lumen Platform,Lumen Platform - Growth Initiative,Discovery,2397806,Legacy Modernization,2026-Q1
+Helio Tech,Helio Tech - Growth Initiative,Proposal,3133523,Platform Engineering,2026-Q2
+Nova Digital,Nova Digital - Growth Initiative,Negotiation,2569891,AI Enablement,2026-Q1
+Terra Labs,Terra Labs - Growth Initiative,Proposal,977172,Digital Product,2026-Q3
+Pulse Grid,Pulse Grid - Growth Initiative,Discovery,1150514,Legacy Modernization,2026-Q2
+Lumen Edge,Lumen Edge - Growth Initiative,Proposal,163606,Digital Product,2026-Q2

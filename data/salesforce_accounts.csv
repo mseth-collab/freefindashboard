@@ -1,0 +1,86 @@
+account_name,industry,subindustry,revenue_band,employee_band,region,tech_stack,cloud_provider,digital_maturity,modernization_gap,engineering_hiring_trend,funding_stage,product_launch_signal,m_and_a_signal,layoffs_signal,ai_adoption_signal,historical_outcome,similarity_to_past_wins
+Core Solutions,SaaS,Workflow Automation,$50M-$200M,2000-10000,LATAM,"Java, Kotlin, Angular",Azure,High,Low,Growing,Public,Yes,No,No,Low,Won,0.79
+Blue Solutions,InsurTech,Risk Analytics,$1B-$5B,500-2000,EMEA,"Node.js, TypeScript, React",On-prem heavy,Medium,High,Growing,Public,Yes,No,Yes,High,Lost,0.31
+Terra Matrix,Manufacturing,Industrial IoT,$50M-$200M,200-500,APAC,"Legacy .NET, jQuery, SQL Server",AWS,High,Medium,Surging,Public,No,No,No,High,Won,0.38
+Terra One,HealthTech,Provider Platforms,$1B-$5B,500-2000,North America,"Java, Kafka, Microservices",Azure,Medium,High,Stable,Bootstrapped,Yes,No,No,Medium,Won,0.62
+Delta Bridge,HealthTech,Health Analytics,$200M-$1B,10000+,North America,"PHP, Laravel, Vue",GCP,Medium,High,Stable,Public,No,No,Yes,High,Lost,0.41
+Helio Works,SaaS,Workflow Automation,$200M-$1B,500-2000,North America,"Legacy .NET, jQuery, SQL Server",Multi-cloud,Low,High,Declining,Series C,No,No,No,Medium,Won,0.67
+North Vista,FinTech,Lending,$50M-$200M,500-2000,North America,"Java, Kafka, Microservices",Azure,Low,Low,Stable,Public,No,No,No,Medium,Won,0.92
+Prime Soft,InsurTech,Policy Admin,$1B-$5B,2000-10000,EMEA,"Java, Spring, React",Azure,Medium,High,Stable,Series D+,Yes,No,Yes,High,Won,0.92
+Nimbus Scale,Retail & eCommerce,Marketplace,$1B-$5B,500-2000,North America,"C#, .NET, Azure DevOps",Azure,High,High,Stable,Bootstrapped,Yes,Yes,No,Low,Won,0.86
+Apex Flow,Travel & Hospitality,Loyalty Tech,$200M-$1B,2000-10000,EMEA,"PHP, Laravel, Vue",AWS,High,Medium,Growing,Public,No,No,No,Low,Won,0.9
+Next Cloud,Manufacturing,Smart Factory,$50M-$200M,2000-10000,North America,"Python, Django, React",Multi-cloud,Medium,Low,Stable,Series C,No,No,No,Medium,Won,0.92
+Terra Grid,FinTech,Digital Banking,$1B-$5B,10000+,North America,"Python, Django, React",Multi-cloud,Medium,Medium,Declining,Public,No,No,No,High,Won,0.37
+Quantum Digital,Media & Entertainment,Streaming,$1B-$5B,2000-10000,EMEA,"Java, Kotlin, Angular",Azure,High,Low,Declining,Series D+,Yes,No,No,Medium,Lost,0.58
+Bright One,Retail & eCommerce,Marketplace,$200M-$1B,10000+,North America,"C#, .NET, Azure DevOps",Azure,Medium,High,Surging,Public,No,No,No,High,Won,0.75
+Pulse Vista,InsurTech,Policy Admin,$200M-$1B,500-2000,EMEA,"PHP, Laravel, Vue",Multi-cloud,High,Low,Stable,Public,No,Yes,Yes,Medium,Lost,0.7
+Next Labs,InsurTech,Claims Automation,$1B-$5B,200-500,North America,"C#, .NET, Azure DevOps",GCP,Medium,Medium,Surging,Series C,Yes,No,Yes,High,Lost,0.43
+Bright Works,InsurTech,Policy Admin,$200M-$1B,500-2000,APAC,"Python, Django, React",GCP,Medium,Medium,Declining,Public,Yes,No,No,High,Won,0.54
+Lumen Scale,FinTech,Digital Banking,$200M-$1B,500-2000,LATAM,"Java, Spring, React",On-prem heavy,Low,High,Stable,Series C,Yes,Yes,No,High,Won,0.58
+Forge Logic,Manufacturing,Smart Factory,$50M-$200M,500-2000,APAC,"Legacy .NET, jQuery, SQL Server",GCP,Medium,High,Growing,Bootstrapped,No,No,No,High,Lost,0.4
+Lumen Grid,Travel & Hospitality,Loyalty Tech,$200M-$1B,2000-10000,North America,"C#, .NET, Azure DevOps",AWS,Medium,Medium,Growing,Public,Yes,Yes,No,High,Won,0.42
+Helio Systems,HealthTech,Health Analytics,$200M-$1B,500-2000,APAC,"Java, Kotlin, Angular",AWS,Low,High,Growing,Series C,No,No,No,Low,Won,0.84
+Lumen Systems,SaaS,Workflow Automation,$200M-$1B,500-2000,North America,"Java, Kafka, Microservices",Multi-cloud,Medium,Low,Surging,Public,No,No,No,High,Won,0.89
+Delta Labs,InsurTech,Policy Admin,$50M-$200M,500-2000,APAC,"PHP, Laravel, Vue",Azure,High,Low,Stable,Bootstrapped,No,No,No,High,Won,0.63
+Sky Platform,InsurTech,Risk Analytics,$50M-$200M,500-2000,APAC,"Java, Spring, React",On-prem heavy,High,Medium,Growing,Series C,No,No,No,High,Won,0.89
+Sky Labs,HealthTech,Health Analytics,$200M-$1B,2000-10000,EMEA,"Legacy .NET, jQuery, SQL Server",AWS,Low,Medium,Growing,Public,No,No,No,Medium,Won,0.55
+Prime Tech,FinTech,Lending,$50M-$200M,2000-10000,North America,"Legacy .NET, jQuery, SQL Server",Azure,Medium,Low,Stable,Series B,Yes,Yes,No,High,N/A,0.49
+Sky Vista,HealthTech,Health Analytics,$200M-$1B,2000-10000,APAC,"Python, Django, React",AWS,High,Low,Stable,Series C,No,No,No,Low,N/A,0.47
+Helio Tech,SaaS,B2B Productivity,$1B-$5B,2000-10000,North America,"Java, Kotlin, Angular",Multi-cloud,High,Low,Stable,Series D+,Yes,No,No,High,N/A,0.49
+Lumen Logic,FinTech,Digital Banking,$200M-$1B,200-500,LATAM,"Java, Kafka, Microservices",On-prem heavy,Medium,Low,Surging,Series C,Yes,No,Yes,High,N/A,0.69
+Nova Platform,SaaS,B2B Productivity,$200M-$1B,500-2000,EMEA,"Java, Kotlin, Angular",Azure,Low,High,Stable,Series C,No,No,No,Medium,N/A,0.59
+Nova Digital,EdTech,Student Success,$5B+,2000-10000,North America,"Node.js, TypeScript, React",AWS,Low,Medium,Growing,Series C,No,No,No,Low,N/A,0.4
+Pulse Stack,FinTech,Digital Banking,$200M-$1B,500-2000,North America,"Java, Kafka, Microservices",AWS,Medium,Medium,Declining,Public,Yes,No,No,Medium,N/A,0.81
+Nova One,Retail & eCommerce,D2C,$1B-$5B,500-2000,APAC,"Legacy .NET, jQuery, SQL Server",Azure,Medium,Low,Stable,Public,No,Yes,No,High,N/A,0.47
+Nimbus Bridge,EdTech,Assessment Tech,$200M-$1B,500-2000,APAC,"Python, Django, React",Azure,High,Low,Stable,Bootstrapped,Yes,No,No,Low,N/A,0.5
+Nimbus Digital,InsurTech,Claims Automation,$200M-$1B,2000-10000,EMEA,"Java, Spring, React",Multi-cloud,Medium,Medium,Growing,Series C,Yes,No,No,Medium,N/A,0.42
+North Bridge,HealthTech,Provider Platforms,$50M-$200M,200-500,LATAM,"Node.js, TypeScript, React",AWS,High,High,Surging,Series B,No,No,No,High,N/A,0.88
+Helio Vista,HealthTech,Care Coordination,$1B-$5B,2000-10000,North America,"Node.js, TypeScript, React",GCP,High,High,Surging,Public,Yes,No,No,Medium,N/A,0.93
+Bright Soft,SaaS,B2B Productivity,$5B+,200-500,LATAM,"Node.js, TypeScript, React",Multi-cloud,Low,Low,Declining,Series B,No,Yes,No,High,N/A,0.44
+North One,SaaS,B2B Productivity,$1B-$5B,500-2000,North America,"C#, .NET, Azure DevOps",Multi-cloud,High,Low,Declining,Series D+,Yes,No,Yes,Medium,N/A,0.72
+Terra Labs,Retail & eCommerce,Marketplace,$1B-$5B,2000-10000,LATAM,"Python, Django, React",AWS,Medium,Medium,Growing,Public,Yes,No,No,Medium,N/A,0.71
+Nimbus Works,FinTech,Lending,$50M-$200M,2000-10000,APAC,"Java, Kotlin, Angular",Azure,Low,Low,Stable,Series D+,Yes,Yes,No,High,N/A,0.69
+Vertex Works,InsurTech,Policy Admin,$200M-$1B,500-2000,APAC,"Python, Django, React",Azure,High,Medium,Surging,Bootstrapped,Yes,No,No,High,N/A,0.42
+Delta Digital,Media & Entertainment,Gaming Platforms,$5B+,200-500,APAC,"Java, Spring, React",Azure,Low,Medium,Growing,Public,No,No,No,High,N/A,0.89
+Nova Flow,Travel & Hospitality,Travel Operations,$200M-$1B,500-2000,North America,"C#, .NET, Azure DevOps",On-prem heavy,High,Medium,Growing,Series C,No,No,No,High,N/A,0.42
+Pulse Flow,FinTech,Payments,$50M-$200M,500-2000,North America,"C#, .NET, Azure DevOps",AWS,Medium,Medium,Declining,Series D+,Yes,Yes,No,Medium,N/A,0.52
+Lumen Platform,SaaS,B2B Productivity,$50M-$200M,200-500,EMEA,"Node.js, TypeScript, React",Azure,Medium,Medium,Stable,Series B,No,No,No,Low,N/A,0.65
+Nimbus Vista,Manufacturing,Smart Factory,$50M-$200M,500-2000,North America,"Java, Kafka, Microservices",GCP,High,High,Surging,Series D+,Yes,No,Yes,Low,N/A,0.8
+Pulse Solutions,SaaS,Workflow Automation,$1B-$5B,500-2000,EMEA,"PHP, Laravel, Vue",AWS,Low,High,Surging,Series C,No,No,No,High,N/A,0.73
+Prime Flow,Travel & Hospitality,Booking Platforms,$50M-$200M,500-2000,North America,"Node.js, TypeScript, React",Azure,Medium,Low,Growing,Public,Yes,Yes,No,High,N/A,0.45
+Opti Grid,Travel & Hospitality,Travel Operations,$200M-$1B,200-500,North America,"PHP, Laravel, Vue",GCP,High,Medium,Stable,Public,No,No,No,High,N/A,0.39
+Next Works,Manufacturing,Supply Chain,$200M-$1B,500-2000,North America,"Python, Django, React",Azure,Low,Low,Stable,Series B,No,No,No,High,N/A,0.61
+Bright Systems,Logistics,Routing Platforms,$200M-$1B,200-500,EMEA,"Java, Spring, React",AWS,High,Medium,Stable,Series D+,No,No,No,Low,N/A,0.46
+Cyber Tech,HealthTech,Care Coordination,$50M-$200M,2000-10000,EMEA,"C#, .NET, Azure DevOps",Multi-cloud,High,High,Stable,Series C,No,No,No,Medium,N/A,0.81
+Next Soft,InsurTech,Claims Automation,$5B+,200-500,North America,"Python, Django, React",Azure,Medium,Medium,Surging,Series C,No,No,Yes,High,N/A,0.42
+Sky Edge,SaaS,Workflow Automation,$200M-$1B,10000+,North America,"Java, Kotlin, Angular",AWS,Medium,High,Declining,Series D+,No,No,No,Low,N/A,0.82
+Nimbus Logic,FinTech,Digital Banking,$1B-$5B,200-500,EMEA,"Java, Kotlin, Angular",GCP,Medium,Medium,Surging,Series C,Yes,No,No,High,N/A,0.9
+Prime One,Manufacturing,Industrial IoT,$200M-$1B,500-2000,APAC,"C#, .NET, Azure DevOps",AWS,Medium,Low,Surging,Series D+,No,No,No,High,N/A,0.89
+Blue Tech,Logistics,Warehouse Automation,$50M-$200M,200-500,LATAM,"Python, Django, React",Multi-cloud,Medium,High,Growing,Series B,No,No,Yes,Low,N/A,0.58
+Lumen Edge,Manufacturing,Supply Chain,$1B-$5B,500-2000,EMEA,"Node.js, TypeScript, React",GCP,High,Medium,Growing,Series B,Yes,No,No,Medium,N/A,0.92
+Nova Bridge,FinTech,Lending,$5B+,200-500,North America,"Java, Spring, React",Multi-cloud,Low,High,Growing,Series D+,No,No,No,Medium,N/A,0.61
+Apex Dynamics,SaaS,B2B Productivity,$200M-$1B,10000+,North America,"Java, Kafka, Microservices",Azure,Low,High,Stable,Public,Yes,No,No,Medium,N/A,0.64
+Cyber Solutions,HealthTech,Health Analytics,$200M-$1B,200-500,North America,"Java, Kotlin, Angular",GCP,Medium,High,Stable,Series D+,No,No,No,Medium,N/A,0.58
+Apex Bridge,EdTech,Student Success,$200M-$1B,500-2000,North America,"Go, Kubernetes, React",GCP,Medium,Medium,Stable,Series B,No,No,No,High,N/A,0.42
+Opti Digital,SaaS,B2B Productivity,$200M-$1B,10000+,APAC,"Node.js, TypeScript, React",Azure,High,Medium,Growing,Series B,No,No,No,High,N/A,0.35
+Quantum Edge,EdTech,Assessment Tech,$1B-$5B,2000-10000,EMEA,"Java, Kafka, Microservices",On-prem heavy,Medium,High,Declining,Series C,No,No,No,High,N/A,0.54
+Nova Works,SaaS,Developer Tools,$200M-$1B,500-2000,APAC,"Java, Kotlin, Angular",Multi-cloud,Medium,High,Declining,Series B,No,No,No,High,N/A,0.4
+Quantum Digital,FinTech,Payments,$1B-$5B,500-2000,EMEA,"Node.js, TypeScript, React",AWS,Medium,Medium,Growing,Series B,No,Yes,Yes,High,N/A,0.78
+Sky Flow,Logistics,Routing Platforms,$1B-$5B,2000-10000,EMEA,"Java, Kotlin, Angular",AWS,Medium,High,Declining,Series D+,No,No,No,High,N/A,0.33
+Blue Dynamics,Retail & eCommerce,D2C,$200M-$1B,500-2000,North America,"Python, Django, React",GCP,High,Medium,Growing,Series D+,Yes,No,No,Medium,N/A,0.79
+Helio Soft,EdTech,Learning Platforms,$200M-$1B,10000+,North America,"Legacy .NET, jQuery, SQL Server",Multi-cloud,Medium,Low,Stable,Series B,No,Yes,Yes,Low,N/A,0.42
+Lumen Labs,HealthTech,Health Analytics,$200M-$1B,200-500,LATAM,"Go, Kubernetes, React",Azure,Medium,Medium,Stable,Series C,No,Yes,No,Medium,N/A,0.61
+Core Vista,Retail & eCommerce,D2C,$50M-$200M,2000-10000,North America,"Java, Kotlin, Angular",GCP,Low,High,Growing,Series C,No,No,No,Low,N/A,0.71
+Next Edge,SaaS,Developer Tools,$5B+,10000+,APAC,"Legacy .NET, jQuery, SQL Server",Azure,Low,Medium,Growing,Public,Yes,Yes,No,Medium,N/A,0.33
+Vertex Stack,Logistics,Routing Platforms,$200M-$1B,500-2000,LATAM,"Node.js, TypeScript, React",Multi-cloud,Medium,High,Growing,Bootstrapped,No,No,No,Medium,N/A,0.89
+North Soft,InsurTech,Claims Automation,$200M-$1B,2000-10000,APAC,"PHP, Laravel, Vue",AWS,High,Medium,Surging,Series B,Yes,Yes,No,High,N/A,0.42
+Lumen Vista,InsurTech,Risk Analytics,$50M-$200M,200-500,EMEA,"Java, Spring, React",AWS,Low,Low,Stable,Public,No,No,No,Medium,N/A,0.38
+Cyber Systems,Manufacturing,Industrial IoT,$200M-$1B,2000-10000,North America,"Go, Kubernetes, React",Multi-cloud,Low,High,Stable,Series D+,No,No,No,High,N/A,0.65
+Bright Bridge,FinTech,Payments,$200M-$1B,500-2000,APAC,"Python, Django, React",Azure,Medium,Medium,Stable,Public,Yes,No,No,High,N/A,0.56
+Quantum Platform,FinTech,Payments,$1B-$5B,200-500,EMEA,"Python, Django, React",Multi-cloud,Medium,High,Surging,Series C,No,No,No,High,N/A,0.4
+Cyber Logic,Travel & Hospitality,Travel Operations,$1B-$5B,500-2000,EMEA,"Node.js, TypeScript, React",AWS,Medium,Low,Declining,Series B,No,Yes,No,Medium,N/A,0.74
+Apex Stack,FinTech,Lending,$200M-$1B,200-500,EMEA,"Python, Django, React",On-prem heavy,Low,High,Surging,Series C,Yes,No,No,Low,N/A,0.79
+Pulse Grid,Logistics,Fleet Tech,$1B-$5B,2000-10000,North America,"Go, Kubernetes, React",Multi-cloud,Medium,Medium,Declining,Series D+,No,No,No,Medium,N/A,0.66
+Opti Tech,SaaS,B2B Productivity,$200M-$1B,500-2000,EMEA,"Python, Django, React",AWS,High,Low,Growing,Series D+,No,No,No,Medium,N/A,0.65
+Terra One,Logistics,Fleet Tech,$200M-$1B,500-2000,North America,"PHP, Laravel, Vue",Multi-cloud,Medium,Low,Stable,Series C,No,No,Yes,Medium,N/A,0.52
+Core Digital,FinTech,Payments,$50M-$200M,500-2000,APAC,"Go, Kubernetes, React",Multi-cloud,High,Medium,Stable,Series B,No,Yes,No,Low,N/A,0.6
