@@ -1,151 +1,110 @@
-# FreeFinance — Freelancer Financial Dashboard
+# Account Propensity Copilot (Exadel Hackathon Demo)
 
-A **modern, corporate-grade** React web app designed specifically for freelancers and independent contractors to manage income, expenses, invoices, and generate professional financial reports. All data is stored locally in your browser (IndexedDB) — no backend, no account needed, **100% private and secure**.
+## What this app does
+**Account Propensity Copilot** is an internal AI-assisted sales decision tool for Exadel teams (Business Development, AEs, AMs).
 
-## 🎯 Key Features
+It scores accounts using two transparent dimensions:
+- **Fit Score (0–50):** Is this a good IT services client for Exadel?
+- **Propensity Score (0–50):** Are they likely to buy now?
 
-✅ **Smart Income Tracking** — Log all income with multi-currency support and automatic FX conversion  
-✅ **Expense Management** — Track business expenses and automatically calculate tax-deductible amounts  
-✅ **Invoice Management** — Create, track, and monitor invoice status with automatic overdue detection  
-✅ **Financial Analytics** — Monthly & quarterly rollups based on your fiscal year; trending charts  
-✅ **Executive Dashboard** — Interactive charts showing income vs expenses trends and category breakdown  
-✅ **Smart Settings** — Configure base currency, fiscal year, categories, payment methods, and FX rates  
-✅ **Professional Exports** — Download data as CSV, XLSX, or PDF for your accountant  
-✅ **AI Finance Assistant** — Built-in chatbot to answer questions about features and best practices  
+These are combined into:
+- **Total Score (0–100)** with account tiering (**Hot / Warm / Cold**)
 
-## 📋 Pages & Features
+Then the app adds **Decision Intelligence**:
+- top 3 score drivers
+- “Why this account” narrative
+- next best action
+- recommended buyer persona
+- recommended Exadel pitch angle
 
-| Page | Description |
-|------|-------------|
-| **Dashboard** | 📊 Real-time income vs. expenses trends, expense category breakdown, KPI cards |
-| **Income** | 💵 Log all income with client, category, invoice #, multi-currency FX conversion |
-| **Expenses** | 💳 Track expenses by vendor & category; set business use % to auto-calculate deductible |
-| **Invoices** | 📄 Issue invoices, track status (Draft/Sent/Paid), automatic overdue detection |
-| **Summary** | 📈 Monthly totals for income, expenses, deductible, and net profit; fiscal-year aware |
-| **Settings** | ⚙️ Base currency, fiscal year start, custom categories, payment methods, FX rates |
-| **Export** | 📥 Download data as CSV, XLSX, or PDF; ready for accountant or tax filing |
-| **Finance Assistant** 💬 | AI chatbot to answer questions about features, budgeting, and best practices |
+The demo uses **synthetic Salesforce-like and external intelligence CSVs** only.
 
-## Installation
+---
 
-### Prerequisites
-- Node 16+ (or compatible)
-- npm or yarn
-
-### Quick Start
-
+## How to run
 ```bash
-cd freelancer-finance-dashboard
-npm install
-npm run dev
+pip install -r requirements.txt
+streamlit run app.py
 ```
 
-The app will open automatically at **`http://localhost:3000`**.
+Open the local URL shown by Streamlit (typically `http://localhost:8501`).
 
-## 🚀 Quick Start Guide
+---
 
-### Step 1: Configure Settings ⚙️
-- Go to **Settings** page
-- Set your **base currency** (USD, EUR, GBP, etc.)
-- Choose **fiscal year start month** (important for quarterly reports)
-- Add custom **income & expense categories** for your business
-- Configure **FX rates** for multi-currency tracking
+## Architecture summary
+- `data_generator.py`
+  - Generates synthetic account, opportunity, and external signal CSVs under `/data`
+  - Creates:
+    - `data/salesforce_accounts.csv`
+    - `data/salesforce_opportunities.csv`
+    - `data/external_company_signals.csv`
+- `utils.py`
+  - Ensures demo CSVs exist and loads/merges input data
+- `scoring.py`
+  - Implements transparent Fit and Propensity scoring logic
+  - Outputs fit, propensity, total, tier, top signal, and drivers
+- `insights.py`
+  - Creates decision intelligence outputs (explanations + actions + persona + pitch angle)
+  - Optional LLM enhancement if `OPENAI_API_KEY` or `GEMINI_API_KEY` exists
+  - Works fully without external APIs
+- `app.py`
+  - Streamlit enterprise-style interface with executive overview, ranked list, details, and comparison
 
-### Step 2: Record Your Income 💰
-- **Income page** → Click "Add Income"
-- Fill in: **date**, **client name**, **category**, **amount**, **currency**
-- Amount is **automatically converted** to your base currency using FX rates
-- Mark as **Paid** once payment is received
+---
 
-### Step 3: Track Your Expenses 💳
-- **Expenses page** → Click "Add Expense"
-- Fill in: **date**, **vendor**, **category**, **amount**
-- Set **business use %** (e.g., 50% for mixed personal/business items)
-- **Deductible amount** is automatically calculated
+## Scoring summary
+### Fit Score (0–50)
+Weighted factors:
+1. Industry alignment to Exadel target sectors
+2. Tech stack match to Exadel strengths
+3. Company size sweet spot
+4. Digital maturity + modernization opportunity
 
-### Step 4: Manage Invoices 📄
-- **Invoices page** → Click "Add Invoice"
-- Issue invoice with **number**, **client**, **due date**, **amount**
-- System automatically **flags overdue invoices**
-- Change status to **Paid** when payment received
+### Propensity Score (0–50)
+Weighted factors:
+1. Engineering hiring trend (momentum)
+2. Cloud / AI migration signals
+3. Funding/growth stage
+4. Product launch, M&A, layoffs signals
 
-### Step 5: Review Your Finances 📊
-- **Dashboard** → See real-time income vs. expenses trends
-- **Summary** → View monthly & quarterly totals, net profit, deductible expenses
-- Ask **Finance Assistant** 💬 if you have questions
+### Output fields
+- `fit_score`
+- `propensity_score`
+- `total_score`
+- `account_tier` (`Hot`, `Warm`, `Cold`)
 
-### Step 6: Export for Your Accountant 📥
-- **Export page** → Download as **CSV**, **Excel**, or **PDF**
-- Share with accountant for tax filing and planning
+---
 
-6. **Visualize**  
-   Dashboard page → view charts of income vs expenses and expense breakdown.
+## Why this is innovative
+This prototype is not just a lead score dashboard.
 
-7. **Export**  
-   Export page → download CSV, XLSX, or PDF for your accountant.
+It introduces a **Decision Intelligence layer** that translates signals into action:
+- **Why this account** in plain English
+- **Who to target** (buyer persona)
+- **What to sell** (Exadel pitch angle)
+- **What to do next** (next best action)
 
-## Data & Storage
+This helps teams move from analytics to execution in one screen.
 
-- **All data stored locally** in your browser's IndexedDB
-- **No backend** — no logins, no accounts, no tracking
-- **Private by design** — your financial data never leaves your computer
-- **Portable** — use on any device with a modern browser
+---
 
-## Important Disclaimer
+## Suggested 4-minute demo flow
+Use this exact path:
+1. **open dashboard**
+2. **show hot accounts**
+3. **explain Fit vs Propensity**
+4. **click one top-ranked account**
+5. **show "Why this account?"**
+6. **show "Next best action"**
+7. **end with business value: better targeting, better pipeline quality, less wasted seller time**
 
-⚠️ **This tool is for organizational purposes only.**
+---
 
-This app is **NOT** tax, legal, or accounting advice. All calculations and reports are provided for reference only.
-
-**You must:**
-- Verify all calculations independently
-- Consult a qualified tax professional or accountant
-- Keep original receipts and documentation
-- Follow your local tax laws and regulations
-
-**Limitations:**
-- FX rates are static; update manually as needed
-- Fiscal year logic is simplified; complex scenarios may need manual adjustment
-- Deductible percentages are user-provided; verify with a tax professional
-
-**Use at your own risk.** The creators are not liable for any financial, legal, or tax consequences.
-
-## Technology Stack
-
-- **React** — UI framework
-- **React Router** — client-side routing
-- **Recharts** — charting library
-- **XLSX** — Excel export
-- **jsPDF** — PDF generation
-- **IndexedDB** — browser local storage
-- **Vite** — build tool
-
-## Build for Production
-
-```bash
-npm run build
-```
-
-This generates an optimized production build in the `dist/` folder.
-
-## Troubleshooting
-
-**Data not persisting?**  
-- Check browser IndexedDB support (use Chrome, Firefox, Safari, or Edge)
-- Clear browser cache and reload
-
-**Charts not showing?**  
-- Ensure you have income/expense data entered
-- Check browser console for errors
-
-**Export not working?**  
-- Allow pop-ups if blocked by browser
-- Check that XLSX/PDF libraries loaded correctly
-
-## License
-
-This project is provided as-is for personal and organizational use.
-
-## Support
-
-For questions or issues, refer to the [Disclaimer](#important-disclaimer) section and consult a financial professional.
+## Notes & constraints
+- Local only
+- Synthetic data only
+- No external DB
+- No auth
+- No real CRM integration
+- Fast startup
+- Demo-ready business framing and explainability
